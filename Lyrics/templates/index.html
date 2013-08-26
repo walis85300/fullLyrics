@@ -1,10 +1,26 @@
 {% extends 'base.html' %}
 
+{% block links %}
+
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/estiloIndex.css">
+
+{% endblock %}
+
 {% block contenido %}
-	<div class="form-inline">
-		<input name="artist" type="text" id="artista" class="form-control" placeholder="Nombre del Artista">
-		<button id="boton" class="btn btn-primary">
-			Cargar Info
-		</button>
+	<div id="contenedor" style='background: url("http://userserve-ak.last.fm/serve/500/67732226/Charliepapa.png");'>
+		<div id="info">			
+			<h1>
+				Busca a tu Artista favorito
+			</h1>
+			<p>
+				Se desplegará una lista de sus canciones!
+			</p>
+			<div class="form-inline">
+				<input name="artist" type="text" id="artista" class="form-control" placeholder="Nombre del Artista">
+				<button id="boton" class="btn btn-primary">
+					Cargar Info
+				</button>
+			</div>
+		</div>
 	</div>
 {% endblock %}

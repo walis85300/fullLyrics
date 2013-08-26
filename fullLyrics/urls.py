@@ -6,7 +6,7 @@ from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^index$', 'Lyrics.views.index', name='index'),
+    url(r'^$', 'Lyrics.views.index', name='index'),
     url(r'^artista$', 'Lyrics.views.artista', name='artista'),
     # url(r'^fullLyrics/', include('fullLyrics.foo.urls')),
 

@@ -1,0 +1,21 @@
+#contenedor
+{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 5px rgba(8,8,8,.5);
+	height: 200px;
+	margin: 4em 10em 0 10em;
+	padding: 4em;
+}
+
+#info
+{
+	background:  url('http://d36xtkk24g8jdx.cloudfront.net/bluebar/43d224c/images/shared/noise-1.png');
+	width: 500px;
+}
+
+
+
+
+

@@ -1,13 +1,45 @@
 body
 {
+	background: lightgrey url('http://d36xtkk24g8jdx.cloudfront.net/bluebar/43d224c/images/shared/noise-1.png');
 	font-size: 16px;
+}
+
+footer
+{
+	border-top: 1px solid grey;
+	bottom: 0;
+	box-shadow: 10px 8px 10px rgba(8,8,8,.5);
+	font-size: .8em;
+	position: absolute;
+	width: 100%;
+}
+footer ul
+{
+	margin-right: 100px;
+}
+
+footer ul li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+footer ul li a
+{
+	margin: 0 3em 0 3em;
+	text-align: center;
+}
+
+header
+{
+	margin: 10px 2em 0 2em;
+	position: relative;
 }
 
 #buscar
 {
 	position: absolute;
-	right: 0;
-	margin: .25em 2em 0 0;
+	right: 25px;	
 }
 
 #nav
@@ -18,4 +50,11 @@ body
 #nav li 
 {
 	margin: 0 1em 0 1em;
+	border-left: .5px solid black;
+}
+
+
+#navbar
+{	
+	padding: 0 1em 0 1em;
 }
