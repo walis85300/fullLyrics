@@ -1,0 +1,21 @@
+body
+{
+	font-size: 16px;
+}
+
+#buscar
+{
+	position: absolute;
+	right: 0;
+	margin: .25em 2em 0 0;
+}
+
+#nav
+{
+	margin: 0 0 0 2em;
+}
+
+#nav li 
+{
+	margin: 0 1em 0 1em;
+}
