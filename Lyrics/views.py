@@ -29,8 +29,6 @@ def artista(request):
 
 			imagen = artista['artist']['image'][3]['#text']
 
-			print imagen
-
 			reqAPI.close()
 
 		except:

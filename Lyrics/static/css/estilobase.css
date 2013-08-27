@@ -6,9 +6,11 @@ body
 
 footer
 {
+	background: url("http://cdn.lst.fm/flatness/responsive/footer/bg.jpg");
 	border-top: 1px solid grey;
 	bottom: 0;
-	box-shadow: 10px 8px 10px rgba(8,8,8,.5);
+	box-shadow: 15px 10px 8px 10px rgba(8,8,8,.5);
+	color: white;
 	font-size: .8em;
 	position: absolute;
 	width: 100%;

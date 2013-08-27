@@ -13,4 +13,6 @@ function onKeyUp(evt)
 function onSubmit()
 {
 	$(location).attr('href','artista?artist='+$artistInput.val());
+	$artistInput.val() = '';
+
 }
